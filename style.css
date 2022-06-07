@@ -1,0 +1,72 @@
+*{  padding:5px 5px; }
+html{font-family: 'Lato', sans-serif;}
+button>a{
+    color:whitesmoke;
+    text-decoration: none;
+}
+button {
+    margin: 25px auto;
+    cursor: pointer;
+    display: block;
+    padding: 10px 25px;
+    background-color: #9494ff;
+    color: whitesmoke;
+    border: none;
+    border-radius: 0px;
+    font-size: 1.5rem;
+    box-shadow: 0px 5px 0px 1px #0000fa;
+    transition: 0.1s ease-out;
+}
+
+button:hover {
+    transform: translateX(0px) translateY(1px);
+    box-shadow: 0px 4px 0px 1px #0000fa;
+}
+
+button:active {
+    transform: translateX(0px) translateY(6px);
+    box-shadow: 0px 0px 0px 0px #0000fa;
+}
+
+button:focus {
+    outline: none;
+}
+
+
+
+h1{ display:block; margin: 60px auto; width:fit-content;font-size: 100px; }
+div.thread{margin:20px 15px;}
+div.unsubscribed form> table >tbody tr {
+    background-color: #efefef;
+}
+table>thead{
+    font-weight:600;
+}
+
+.form{
+    display:block;
+    width: fit-content;
+    margin:15px auto;
+}
+
+.form>form{
+    width:fit-content;
+    margin:auto;
+}
+.form>form>input {
+    display: block;
+    padding: 4px;
+    margin: 5px 0px;
+}
+
+form.question{
+    display:flex;
+    flex-flow:column;
+    max-width:400px;
+}
+form.question>select#theme{margin:15px 0px;display:inline-block;}
+form.question>button{
+    padding:10px 20px;
+    display:block;
+    margin:15px auto;
+}
